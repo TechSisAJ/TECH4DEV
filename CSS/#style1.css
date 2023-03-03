@@ -1,0 +1,83 @@
+div div #Name{
+color: aquamarine;
+}
+#AJmoney{
+    background-color: blueviolet;
+    border-width: 0px 15px 0px 15px;
+    border-color: brown;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PEE{
+    width: 70%;
+    height: 40%;
+    border: 4px dotted;
+    border-color: cadetblue;
+    margin: 0%;
+}
+#border1{
+    border-style: dotted;
+    border-color: blueviolet;
+    padding: 5% 40%;
+}
+#border2{
+    border-style: dashed;
+    border-color: blue;
+    padding: 5% 40%;
+}
+#box1{
+    border: dashed blue;
+    height: 200px;
+    width: 200px;
+}
+#box2{
+    border: double pink;
+    height: 80%;
+    width: 80%;
+}
+#box3{
+    border: dashed purple;
+    height: 70%;
+    width: 70%;
+}
+#box4{
+    border: double fuchsia;
+    height: 60%;
+    width: 60%;
+}
