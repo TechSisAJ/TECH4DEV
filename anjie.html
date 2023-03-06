@@ -1,42 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-.triangle{
-	border-bottom: 50px solid aquamarine;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	height: 0;
-	width: 450px;
-    margin: auto;
+  p{
+    /* display: inline; */
+  }
+  .box1{
+    border-style: dashed;
+    background-color: black;
+    min-height: 500px;
+    min-width: 500px;
+    position: relative;
+  }
+  .box2{
+    border-style: dotted;
+    background-color: red;
+    min-height: 500px;
+    min-width: 500px;
+    position: relative;
+  }
+@media screen and (max-width: 992px) and (min-width: 601px) {
+  .box1{
+    background-color:red;
+  }
+  .box2{
+    background-color: black;
+  }
+}
+@media screen and ( min-width: 375px) {
+  .box1{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: red
+  }
+  .box2{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: black
+  }
+}
+@media screen and ( min-width: 425px) {
+  .box1{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: black
+  }
+  .box2{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: red
+  }
+}
 
+@media screen and ( min-width: 768px) {
+  .box1{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: red;
+  }
+  .box2{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: black;
+  }
 }
-.rectangle {
-    margin: auto;
-  height: 500px;
-  width: 500px;
-  background-color: aqua
+@media screen and ( min-width: 1024px) {
+  .box1{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: black
+  }
+  .box2{
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: red
+  }
 }
-.window1{
-    height: 80px;
-  width: 70px;
-  background-color: cadetblue;
-  border-style: solid;
-  position: absolute;
-  top: 400px;
-  left: 300px;
+.portrait{
+  display: none;
 }
+.landscape{
+  display: none;
+}
+@media screen and (orientation: portrait) {
+  .portrait{
+    display: block;
+    color: black
+  }
+}
+@media screen and (orientation: landscape) {
+  .landscape{
+    display: block;
+    color: red
+  }
 }
 </style>
 </head>
 <body>
-
-<h2></h2>
-<div class="triangle"></div>
-<div class="rectangle"></div>
-<div class="window1"></div>
-<div class="window 2"></div>
-<div class="door"></div>
+<p class="portrait">PORTRAIT</p>
+<P class="landscape">LANDSCAPE</P>
+<!--<p class="box1"></p>
+<p class="box2"></p> -->
 </body>
 </html> 
